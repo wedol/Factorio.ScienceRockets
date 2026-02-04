@@ -1,0 +1,9 @@
+{
+  "name": "connavar-space-and-promethium-science",
+  "version": "1.0.0",
+  "title": "Connavar space and promethium science rocket silo",
+  "author": "Connavar",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0", "space-age >= 2.0"],
+  "description": "Adds a rocket silo for space science and promethium science. !!!!! Promethium not implemented yet !!!!!"
+}
