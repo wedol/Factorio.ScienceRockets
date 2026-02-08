@@ -42,6 +42,46 @@ data:extend(
       time = 60
     }
   },
+  {
+    type = "technology",
+    name = "connavar-promethium-rocket-silo",
+    icon = "__base__/graphics/technology/rocket-silo.png",
+    icon_size = 256,
+    essential = true,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "connavar-promethium-rocket-silo"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "connavar-promethium-catcher"
+      }
+    },
+    prerequisites =
+    {
+      "promethium-science-pack"
+    },
+    unit =
+    {
+      count = 500,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
+        {"cryogenic-science-pack", 1}
+      },
+      time = 60
+    }
+  },
   --{
     --type = "technology",
    -- name = "space-science-pack",

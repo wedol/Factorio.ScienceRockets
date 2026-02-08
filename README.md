@@ -4,7 +4,7 @@ A Factorio mod that adds a specialized rocket silo for space science and prometh
 
 ## Version
 
-**1.0.0**
+**1.1.0**
 
 ## Requirements
 
@@ -13,17 +13,18 @@ A Factorio mod that adds a specialized rocket silo for space science and prometh
 
 ## Description
 
-This mod introduces a custom rocket silo designed specifically for launching space science satellites and supporting promethium science research in Factorio's Space Age expansion.
-
-**Note**: Promethium science functionality is not yet implemented in this version.
+This mod introduces custom rocket silos designed specifically for launching space science satellites and promethium catcher payloads in Factorio's Space Age expansion.
 
 ## Features
 
 ### New Items
 
 - **Connavar Space Science Rocket Silo**: A specialized silo for launching space science rockets
+- **Connavar Promethium Rocket Silo**: A specialized silo for launching promethium catcher payloads
 - **Connavar Space Science Rocket Part**: Components used to build the rocket
 - **Connavar Space Science Satellite**: A satellite that generates 1000 space science packs when launched
+- **Connavar Promethium Catcher**: A payload that yields promethium asteroid chunks when launched
+- **Connavar Promethium Rocket Part**: Components used to build the promethium rocket
 
 ### New Recipes
 
@@ -34,6 +35,14 @@ This mod introduces a custom rocket silo designed specifically for launching spa
 - **Rocket Part Recipe**: Crafting recipe for rocket parts (requires research)
   - Category: Rocket building
   - Automated production
+
+- **Promethium Rocket Silo Recipe**: Crafting recipe for the promethium silo (requires research)
+  - Ingredients: 1200 steel plates, 1200 concrete, 200 pipes, 250 processing units, 250 electric engine units
+  - Energy: 40 seconds
+
+- **Promethium Catcher Recipe**: Crafting recipe for the promethium catcher (requires research)
+  - Category: Crafting with fluid
+  - Ingredients: 100 quantum processors, 100 tungsten plates, 100 superconductors, 50 rocket fuel, 50 electric engine units, 50 carbon fiber, 50 lithium plates, 50 fusion power cells, 500 fluoroketone (cold)
 
 ## Installation
 
@@ -51,7 +60,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Future Plans
 
-- Implement promethium science functionality
 - Additional customization options
 - Balance adjustments based on player feedback
 
