@@ -4,7 +4,7 @@ A Factorio mod that adds a specialized rocket silo for space science and prometh
 
 ## Version
 
-**1.1.0**
+**1.1.2**
 
 ## Requirements
 
@@ -43,6 +43,10 @@ This mod introduces custom rocket silos designed specifically for launching spac
 - **Promethium Catcher Recipe**: Crafting recipe for the promethium catcher (requires research)
   - Category: Crafting with fluid
   - Ingredients: 100 quantum processors, 100 tungsten plates, 100 superconductors, 50 rocket fuel, 50 electric engine units, 50 carbon fiber, 50 lithium plates, 50 fusion power cells, 500 fluoroketone (cold)
+
+### Gameplay Changes
+
+- **Promethium Science Pack**: Made craftable on any planet (surface restrictions removed), allowing players to craft it without being limited to specific planetary locations.
 
 ## Installation
 

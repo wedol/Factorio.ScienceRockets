@@ -19,6 +19,12 @@
 --   create_recipe_parameter(n)
 -- end
 
+
+-- Make promethium-science-pack craftable on any planet
+if data.raw["recipe"] and data.raw["recipe"]["promethium-science-pack"] then
+  data.raw["recipe"]["promethium-science-pack"].surface_conditions = nil
+end
+
 data:extend
 ({
   {
